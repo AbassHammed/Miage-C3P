@@ -10,4 +10,4 @@ Ajout des fonctionnalités suivante sur le pion :
   - Ajout de la mécanique de prise en diagonale.
   - Ajout du comportent particulier au premier mouvement.
   - réflexion sur comment faire la prise en passant ainsi que l'implémentation de la promotion.
-Tout le code ^roduit cette smeaine se trouve dans le repos suivant[https://github.com/Muzaraigne/Chess]
+Tout le code ^roduit cette smeaine se trouve dans [ce repos](https://github.com/Muzaraigne/Chess)
