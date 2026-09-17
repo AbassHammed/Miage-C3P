@@ -42,14 +42,16 @@ Here is the link to the repository containing my modifications: https://github.c
 
 ## Tien
 
-### 1. Template Method Pattern (Hook & Template)
+### What I have learnt
+
+#### 1. Template Method Pattern (Hook & Template)
 
 - **Template method:** Defined in the superclass to set the workflow order and invoke hook(s).
 * **Hook method:** Using self and let subclass define it.
 
 ---
 
-### 2. `printOn:` vs `printString`
+#### 2. `printOn:` vs `printString`
 
 - **Implement `printOn: aStream`:** This is where you describe how your object looks. Use streams to avoid creating throwaway strings.
 - **Call `printString`:** Use this when you actually need a `String` (like printing it with `Ctrl + P`). It will call `printOn:` behind the scenes.
@@ -69,7 +71,7 @@ Person >> printOn: aStream
 
 ---
 
-### 3. Initialization
+#### 3. Initialization
 
 Always call `super initialize` first when setting up your object's default state to avoid a warning:
 
@@ -82,7 +84,7 @@ MyClass >> initialize
 
 ---
 
-### 4. `yourself` vs `self`
+#### 4. `yourself` vs `self`
 
 - `self` is the object itself inside a method.
 - `yourself` is a helper message (`^ self`) used at the end of a cascade (`;`). It makes sure the entire expression returns the original object, not whatever the last message returned.
@@ -98,10 +100,22 @@ numbers := OrderedCollection new
 
 ---
 
-### 5. Extending Existing Classes (like `Integer`)
+#### 5. Extending Existing Classes (like `Integer`)
 
 In Pharo, you don't need to subclass to add a method to built-in classes:
 
 1. Select `Integer` in the browser.
 2. Add new methods to `Integer`
 3. Add new protocol by clicking `Extension` at the bottom right of console and typing name of package
+
+
+## Exercise & Difficulty
+
+### Exercise
+Link to Chess reporitory: https://github.com/nttt1400/Chess
+I have added many tests: 
+- added new Test classes for other missing chess pieces
+- follow the structure of other tests to create similar tests for them : isPiece, id and some moves.
+
+### Difficulty
+Since it's the beginning of the class, I found it challenging to do this exercise without a guided instruction but still interesting to discover it by myself.
