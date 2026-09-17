@@ -2,6 +2,42 @@
 
 ## Glauriel
 
+### 1. Chess Exercise – Understanding the Codebase
+
+I chose to work on the first problem in the Chess Game repository, called “Fix pawn moves!”.
+
+I started by understanding the different classes and the relationships between them. Each class has a specific role in the game: MyChessBoard represents the chessboard, MyChessSquare represents a square on the board, and MyPiece represents a chess piece. MyPiece is the superclass of the different piece classes, including MyPawn, which is the class I worked on.
+
+My goal was to understand the existing implementation before making any changes and to identify the bugs related to pawn movement.
+
+### 2. Writing Tests
+
+After gaining a general understanding of the project, I took inspiration from the existing tests in the repository to write my own tests.
+
+I first wrote basic tests to make sure that pawns could move correctly on the board. I then focused on specific pawn movement rules, especially:
+
+- a pawn can move two squares forward on its first move from its starting rank (rank 2 for White and rank 7 for Black);
+- a pawn cannot move forward if there is a piece directly in front of it;
+- a pawn can capture an opponent's piece diagonally.
+
+Writing these tests first allowed me to identify the incorrect behaviors in the existing implementation before modifying the code.
+
+### 3. Updating the Code
+
+The method responsible for determining which squares a piece can move to is called targetSquaresLegal: aBoolean. I had to modify this method in MyPawn to make my tests pass.
+
+I started by checking the pawn's color to determine the direction in which it should move: White pawns move upward, while Black pawns move downward.
+
+I then implemented the logic for the pawn's initial two-square move and the rule preventing a pawn from moving forward when another piece is directly in front of it.
+
+So far, two of the three pawn movement rules I tested are working successfully: the initial two-square move and the restriction on moving forward when a piece is blocking the pawn.
+
+The diagonal capture rule is the next part I am working on.
+
+Repository
+
+Here is the link to the repository containing my modifications: https://github.com/badjilaglaurielfauster-glitch/Chess
+
 ---
 
 ## Tien
