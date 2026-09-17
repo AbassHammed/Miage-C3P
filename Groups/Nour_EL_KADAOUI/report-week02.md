@@ -13,6 +13,20 @@ J’ai regardé les deux vidéos sur `self` et `super`. Elles m’ont permis de 
 
 J’ai également réalisé les exercices **Flag/Country**.
 
+----------------------------------------------------------------------------------------
+
+J'ai regardé aussi la vidéo de yourself, j'ai compris que yourself permet de retourner l'objet lui-même après l'avoir configuré avec plusieurs messages .
+
+Par exemple :
+
+```
+Person new
+    name: 'Nour';
+    age: 21;
+    yourself
+```
+
+Ici on crée une nouvelle personne, puis on lui donne le nom Nour et l'âge 21. A la fin, yourself retourne cette meme instance de Person, avec les valeurs qui ont été enregistrées dedans. On récupère donc un objet Person représentant Nour, agée de 21 ans. 
 
 ## 2. Pratique du message dispatch
 
