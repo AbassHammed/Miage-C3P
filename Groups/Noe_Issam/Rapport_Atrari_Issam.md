@@ -15,7 +15,7 @@ Et pour finir, j'ai essayé de commencer l'exercice sur les drapeaux (FlagCountr
 
 **Semaine 2 :**
 
-Cette semaine, j'ai terminé l'exercice du DSL et continué à regarder les vidéos du MOOC pour rattraper mon retard, notamment celles des modules 1 et 3. Le module 1 m'a permis de bien comprendre le mécanisme du dispatch et du lookup, et le module 3 m'a introduit aux design patterns, en particulier les hooks et templates. J'ai aussi jeté un œil rapide au projet de groupe pour savoir à quoi m'attendre pour la suite.
+Cette semaine, j'ai terminé l'exercice du DSL et continué à regarder les vidéos du MOOC pour rattraper mon retard, notamment celles des modules 1 et 3. Le module 1 m'a permis de bien comprendre le mécanisme du dispatch et du lookup, et le module 3 m'a introduit aux design patterns, en particulier les hooks et templates. J'ai aussi jeté un œil rapide au projet de groupe pour savoir à quoi m'attendre pour la suite. Côté configuration, j'ai mis en place une clé SSH pour pouvoir push sur GitHub sans avoir à ressaisir un token à chaque fois, mais pour l'instant, il est uniquement sur mon pc personnel.
 
 
 
