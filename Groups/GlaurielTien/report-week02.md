@@ -112,6 +112,8 @@ In Pharo, you don't need to subclass to add a method to built-in classes:
 ## Exercise & Difficulty
 
 ### Exercise
+Link to Dice reporitory: https://github.com/nttt1400/Dice (finished).
+
 Link to Chess reporitory: https://github.com/nttt1400/Chess.
 I have: 
 - added new Test classes for other missing chess pieces
