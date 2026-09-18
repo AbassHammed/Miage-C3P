@@ -71,3 +71,7 @@ testStartMovesWithOponentObstacle
 			(#( e3 ) collect: [ :name | board at: name ])
 ```
 
+Suite à cela, j'ai essayé d'ajouter la prise en passant, mais ça n'a mené à rien et j'ai simplement perdu du temps.
+
+
+J'ai eu pas mal de problème et j'ai encore du mal à coder en Pharo et à apprécier le langage. Je dois encore m'appuyer sur du code existant pour avoir un référenciel. à côté de ça, j'ai eu plusieurs problèmes avec des crashs à répétition de Pharo, ce qui n'a vraiment pas aidé. J'ai pas vraiment l'impression d'avancer et ça m'énerve.
