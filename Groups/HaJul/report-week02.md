@@ -1,4 +1,4 @@
-# Rapport semaine 2 — HaJul
+# Rapport semaine 2
 
 ## Hammed ABASS
 
